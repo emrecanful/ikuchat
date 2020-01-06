@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Ikuchat Giriş</title>
 
-        <link rel="stylesheet" href="assets/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"><img width="45px" src="assets/img/ikuchat-brand.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,7 +31,7 @@
 
         <div class="container pt-5">
             <div class="row justify-content-md-center">
-                <div class="col-4">
+                <div class="col-md-4 col-sm-12">
                     <center><h3>Giriş Yap</h3></center>
                     <div class="card border-primary">
                     
@@ -51,13 +51,20 @@
                                         Beni hatırla
                                     </label>
                                 </div>
-                                <button type="submit" style="float:right;" class="btn btn-danger">Giriş Yap</button>
+                                <a href="forgot_password.html" style="float:right;">Parolamı unuttum</a>
+                                <button type="submit" class="btn btn-danger btn-block btn-lg">Giriş Yap</button>
                             </form>
                             
                         </div>
                     </div>
+                    <br />
+                    <center>Hasbınız yok mu?</center>
+                    <br />
+                    <a class="btn btn-info btn-lg btn-block" href="register.html">Kayıt ol</a>
                 </div>
             </div>
         </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
     </body>
 </html>
